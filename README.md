@@ -1,4 +1,4 @@
-# HashesDAO Utils
+# HashesDAO Utilities
 This repo contains several utilities for using HashesDAO data in your own project, allowing the following for a connected wallet:
 - get a wallet's existing hashes
 - mint a standard hash
@@ -17,7 +17,7 @@ This repo contains several utilities for using HashesDAO data in your own projec
 - [Wagmi](https://wagmi.sh/)
 - [Viem](https://viem.sh/)
 
-## TL;DR - How you can use this now 🚀
+## TL;DR - How you can use this right now 🚀
 This repo is based from [prior hashesDAO work](https://github.com/hashesDAO/editor), utilizing the tools above. Likewise, it's lightly opinionated in terms of tech stack but is easily modifiable based on your needs. Here's the core functionality:
 
 1. [useHashesData](https://github.com/hashesDAO/nextjs-utils/blob/main/app/hooks/useHashesData.ts) - Given a connected wallet, this custom hook calls a Next.js api endpoint within this repo and provides the hashes NFT data associated with the connected wallet on the given network. Additionally, `loading` and `error` states are also provided. [Example](https://github.com/hashesDAO/editor/blob/main/app/components/Dashboard/HashSelect/HashSelectSection.tsx#L49)
